@@ -28,12 +28,12 @@ namespace Test
         }
 
         [Test]
-        public void Input_Isosceles60_60_30ExpectIsosceles()
+        public void Input_Isosceles70_70_35ExpectIsosceles()
         {
             //Arrange
-            int triSide1 = 60;
-            int triSide2 = 60;
-            int triSide3 = 30;
+            int triSide1 = 70;
+            int triSide2 = 70;
+            int triSide3 = 35;
             string ExpectedOutput = "Isosceles triangle";
 
             //Act
