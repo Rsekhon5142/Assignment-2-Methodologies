@@ -28,13 +28,13 @@ namespace Assignment_2
                 int.TryParse(selSide, out sel);
                 if (sel == 1)
                 {
-                    Console.WriteLine("Enter 1st sides");
+                    Console.WriteLine("Enter First sides");
                     T1 = Console.ReadLine();
                     bool ans1 = int.TryParse(T1, out n1);
-                    Console.WriteLine("Enter 2nd sides");
+                    Console.WriteLine("Enter Second sides");
                     T2 = Console.ReadLine();
                     bool ans2 = int.TryParse(T2, out n2);
-                    Console.WriteLine("Enter 3rd sides");
+                    Console.WriteLine("Enter Third sides");
                     T3 = Console.ReadLine();
                     bool ans3 = int.TryParse(T3, out n3);
                     val = Traiangle_solver.Analyze(n1, n2, n3);
