@@ -10,7 +10,7 @@ namespace Assignment_2
     {
 public static string Analyze(int tr1, int tr2, int tr3)
         {
-            string triangleType="" ;
+            string triangleType= string.Empty ;
             if (tr1 > 0 && tr2 > 0 && tr3 > 0)
             {
                 if ((tr1 + tr2) > tr3 && (tr2 + tr3) > tr1 && (tr1 + tr3) > tr2)
